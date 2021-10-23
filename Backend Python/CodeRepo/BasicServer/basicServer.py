@@ -13,7 +13,6 @@ class Server(BaseHTTPRequestHandler):
         self.send_header("Content-type", "text/html")
         self.end_headers()
         self.wfile.write(bytes("<ht><head><title>Basic Python Server</title></head>", "utf-8"))
-        # self.wfile.write(bytes("<p>Request: %s</p>" % self.path, "utf-8"))
         self.wfile.write(bytes("<body>", "utf-8"))
         self.wfile.write(bytes("<h1>Welcome to the Matrix, Neo.</h1>", "utf-8"))
         self.wfile.write(bytes("<h3>Current time: %s</h3>" % time, "utf-8"))
