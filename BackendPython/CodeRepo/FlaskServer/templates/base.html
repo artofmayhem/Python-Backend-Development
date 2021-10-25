@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flask Server</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Flask Server"
+    />
+    <!-- This is what flask uses to components between html pages -->
+    {% block head %}{% endblock %}
+</head>
+
+  <body>
+    {% block body %}{% endblock %}
+</html>
