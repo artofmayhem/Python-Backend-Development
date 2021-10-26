@@ -1,10 +1,22 @@
-{% extends "base.html" %}
-
-{% block title %}
-    <h1>Template Rendering</h1>>
-{% endblock %}
-
-{% block body %}
-    <h1>Home</h1>
-    <p>This is the home page</p>
-{% endblock %}
+{% extends "base.html" %} {% block title %}
+<h1>Template Rendering</h1>
+> {% endblock %} {% block body %}
+<div>
+  <table>
+    <tr>
+      <th>Task</th>
+      <th></th>
+      <th>Added</th>
+      <th>Actions</th>
+    </tr>
+    <tr>
+      <td>
+        <a href="">About</a>
+      </td>
+      <td>
+        <a href="">Contact</a>
+      </td>
+    </tr>
+  </table>
+  {% endblock %}
+</div>

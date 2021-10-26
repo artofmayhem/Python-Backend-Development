@@ -10,3 +10,12 @@ body {
   top: 0;
   left: 0;
 }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
