@@ -2,21 +2,30 @@
 <h1>Template Rendering</h1>
 > {% endblock %} {% block body %}
 <div>
-  <table>
-    <tr>
-      <th>Task</th>
-      <th></th>
-      <th>Added</th>
-      <th>Actions</th>
-    </tr>
-    <tr>
-      <td>
-        <a href="">About</a>
-      </td>
-      <td>
-        <a href="">Contact</a>
-      </td>
-    </tr>
-  </table>
-  {% endblock %}
+  <nav>
+    <div>
+      <a href="https://thenewfoundry.com"><h2>NewFoundry</h2></a>
+    </div>
+    <div class="nav-list-items">
+      <ul>
+        <li>
+          <a href="/">HOME</a>
+        </li>
+        <li>
+          <a href="/about">ABOUT US</a>
+        </li>
+        <li>
+          <a href="/work">OUR WORK</a>
+        </li>
+        <li>
+          <a href="/platforms">PLATFORMS</a>
+        </li>
+        <li>
+          <a href="/contact">CONTACT</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 </div>
+  {% endblock %}
+
