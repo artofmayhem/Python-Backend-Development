@@ -4,7 +4,8 @@
 <div>
   <nav>
     <div>
-      <a href="https://thenewfoundry.com"><h2>NewFoundry</h2></a>
+      <a href="https://thenewfoundry.com"><h2>Imagination</h2></a>
+      <h5>Tony Miller</h5>
     </div>
     <div class="nav-list-items">
       <ul>
@@ -26,6 +27,83 @@
       </ul>
     </div>
   </nav>
-</div>
-  {% endblock %}
+  <div class="main-header">
+    <h1>
+      Imagination <br />
+      meets <br />
+      reality
+    </h1>
+  </div>
+  <section class="main-content">
+    <div>
+      <img
+        src="{{ url_for('static', filename='/assets/spider-sketch3.JPEG') }}"
+        alt="sketch action drawing of Spider-man jumping and spinning webs"
+        class="main-image-size1"
+      />
+    </div>
+    <div>
+      <h2>SPIDER-MAN</h2>
+      <h4>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi metus
+        massa, fringilla nec sodales non, finibus id eros. Nam sed est purus. In
+        fermentum risus aliquet aliquam faucibus. Duis auctor ornare pulvinar.
+        Fusce lectus diam, posuere ac sollicitudin ut, commodo et erat. Etiam
+        quis turpis fringilla, lacinia nibh nec, accumsan nisl. Cras felis nunc,
+        tincidunt id risus quis, dictum vestibulum est. Donec ultricies porta
+        fermentum. Vivamus sed laoreet justo. Ut mi dui, vehicula et mi sed,
+        pellentesque maximus mauris. Aenean et tortor eget augue faucibus
+        tempus.
+      </h4>
+    </div>
+  </section>
+  <section>
+      <div class="banner-header">
+    <h2>BATMAN</h2>
+  </div>
+  </section>
 
+  <section class="main-content">
+    <div>
+      <h2>GOKU</h2>
+      <h4>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi metus
+        massa, fringilla nec sodales non, finibus id eros. Nam sed est purus. In
+        fermentum risus aliquet aliquam faucibus. Duis auctor ornare pulvinar.
+        Fusce lectus diam, posuere ac sollicitudin ut, commodo et erat. Etiam
+        quis turpis fringilla, lacinia nibh nec, accumsan nisl. Cras felis nunc,
+        tincidunt id risus quis, dictum vestibulum est. Donec ultricies porta
+        fermentum. Vivamus sed laoreet justo. Ut mi dui, vehicula et mi sed,
+        pellentesque maximus mauris. Aenean et tortor eget augue faucibus
+        tempus.
+      </h4>
+    </div>
+    <img
+        src="{{ url_for('static', filename='/assets/goku-sketch1.jpg') }}"
+        alt="sketch action drawing of Spider-man jumping and spinning webs"
+        class="main-image-size1"
+      />
+    </section>
+  </section>
+  <div class="image-header">
+    <div class="image-header-title"><h2>ORIGINAL WORKS</h2></div>
+    <section class="image-wrapper">
+    <img
+    src="{{ url_for('static', filename='/assets/thecaptain.png') }}"
+    alt="sketch action drawing of Spider-man jumping and spinning webs"
+    class="main-image-size2"
+  />
+    <img
+    src="{{ url_for('static', filename='/assets/sketchy1.PNG') }}"
+    alt="sketch action drawing of Spider-man jumping and spinning webs"
+    class="main-image-size2"
+  />
+    </section>
+  </section>
+  <section>
+    <div class="banner-header2">
+  <h2>BATMAN</h2>
+</div>
+</section>
+</div>
+{% endblock %}
