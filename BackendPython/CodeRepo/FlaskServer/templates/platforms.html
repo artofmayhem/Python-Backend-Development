@@ -1,0 +1,51 @@
+{% extends "base.html" %} {% block title %}
+<h1>Template Rendering</h1>
+> {% endblock %} {% block body %}
+<div>
+    <nav>
+        <div>
+          <a href="https://thenewfoundry.com"><h2>IMR</h2></a>
+          <h5>By Tony Miller</h5>
+        </div>
+        <div class="nav-list-items">
+          <ul>
+            <li>
+              <a href="/">HOME</a>
+            </li>
+            <li>
+              <a href="/about">ABOUT US</a>
+            </li>
+            <li>
+              <a href="/work">OUR WORK</a>
+            </li>
+            <li>
+              <a href="/platforms">PLATFORMS</a>
+            </li>
+            <li>
+              <a href="/contact">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="platforms-header">
+        <h1>
+          Imagination <br />
+          meets <br />
+          reality
+        </h1>
+        <button>
+          <a href="{{ url_for('index') }}">Home</a>
+        </button>
+      </div>
+      <section class="main-content">
+        <div class="main-content-text">
+          <h2>Platforms</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Donec euismod, nisl eu blandit congue, nunc nisl consectetur
+            nunc, euismod aliquet nisl nunc euismod nunc.
+            </p>
+        </div>
+        </section>  
+</div>
+  {% endblock %}

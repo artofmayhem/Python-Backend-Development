@@ -74,6 +74,7 @@ a {
   background-position: -10rem 5rem;
   background-repeat: no-repeat;
   display: flex;
+  flex-flow: column;
   justify-content: flex-start;
   align-items: center;
   height: 35rem;
@@ -82,6 +83,79 @@ a {
   font-size: 3rem;
   padding: 4rem 5rem;
   text-shadow: 0 0 1rem black;
+}
+
+.about-header {
+  background-image: url("/static/assets/batman-jim2.jpg");
+  background-size: cover;
+  background-position: -10rem 5rem;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 35rem;
+  width: 100vw; 
+  text-align: left;
+  font-size: 3rem;
+  padding: 4rem 5rem;
+  text-shadow: 0 0 1rem black;
+}
+
+.work-header {
+  background-image: url("/static/assets/superman-jim.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 35rem;
+  width: 100vw; 
+  text-align: left;
+  font-size: 3rem;
+  padding: 4rem 5rem;
+  text-shadow: 0 0 1rem black;
+}
+
+
+.platforms-header {
+  background-image: url("/static/assets/ironman.jpg");
+  background-size: cover;
+  background-position: center 5%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 35rem;
+  width: 100vw; 
+  text-align: left;
+  font-size: 3rem;
+  padding: 4rem 5rem;
+  text-shadow: 0 0 1rem black;
+}
+
+.contact-header {
+  background-image: url("/static/assets/xmen2.jpg");
+  background-size: cover;
+  background-position: center 5%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 35rem;
+  width: 100vw; 
+  text-align: left;
+  font-size: 3rem;
+  padding: 4rem 5rem;
+  text-shadow: 0 0 1rem black;
+}
+
+.contact-header h2 {
+  color: black
 }
 
 /* .main-header h1 {
@@ -181,4 +255,23 @@ section div {
   height: auto;
   justify-content: space-evenly;
   align-items: center;
+}
+
+button  {
+  font-size: 1.5rem;
+  padding: 1.5rem 3rem;
+  border: none;
+  background: #444;
+  color: #FFF;
+  cursor: pointer;
+  border: 2px solid;
+}
+
+button:hover {
+  background: #eee;
+  color: black;
+  opacity: 0.6;
+  border: 2px solid #333;
+  transition: 3s;
+  
 }
